@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@shopify/polaris-icons": "3.10.0",
-    "svg-to-svelte": "^0.3.0"
+    "svg-to-svelte": "^0.3.4"
   },
   "repository": {
     "type": "git",
