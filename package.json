@@ -4,17 +4,18 @@
   "license": "MIT",
   "description": "Shopify Polaris SVG icons as Svelte components",
   "author": "Eric Liu (https://github.com/metonym)",
-  "svelte": "lib/index.js",
-  "main": "lib/index.js",
+  "svelte": "./lib/index.js",
+  "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
+    "dev": "rollup -cw",
+    "predeploy": "node build && rollup -c",
+    "deploy": "npx gh-pages -d dist",
     "prepack": "node build"
-  },
-  "peerDependencies": {
-    "svelte": "^3.20.x"
   },
   "devDependencies": {
     "@shopify/polaris-icons": "4.1.0",
+    "svelte-readme": "^1.1.0",
     "svg-to-svelte": "^2.0.0"
   },
   "repository": {
