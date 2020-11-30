@@ -4,7 +4,7 @@ const { name, devDependencies } = require("./package.json");
 
 (async () => {
   const lib = "@shopify/polaris-icons";
-  const { moduleNames } = await generateFromFolder(`node_modules/${lib}/images`);
+  const { moduleNames } = await generateFromFolder(`node_modules/${lib}/dist/svg`);
 
   await generateIndex({
     moduleNames,
