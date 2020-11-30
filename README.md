@@ -7,6 +7,8 @@
 
 This library builds icons from [Shopify Polaris](https://polaris-icons.shopify.com/) as Svelte components with zero dependencies.
 
+Try it in the [Svelte REPL](https://svelte.dev/repl/52cb5e5d624b4f2cbb60a110b76161f0?version=3.30.0).
+
 ## Install
 
 ```bash
@@ -21,7 +23,12 @@ npm i -D svelte-polaris-icons
 
 ```svelte
 <script>
-  import { AddMajor, ArrowUpMinor, CategoriesMajor, MobilePlusMajor } from "svelte-polaris-icons";
+  import {
+    AddMajor,
+    ArrowUpMinor,
+    CategoriesMajor,
+    MobilePlusMajor,
+  } from "svelte-polaris-icons";
 </script>
 
 <AddMajor width={20} />
