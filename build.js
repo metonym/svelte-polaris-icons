@@ -1,34 +1,15 @@
+const { generateFromFolder, generateIndex } = require("svg-to-svelte");
 const fs = require("fs");
-const pkg = require("./package.json");
-const { cleanDir, generateFromFolder } = require("svg-to-svelte");
+const { name, devDependencies } = require("./package.json");
 
-async function build() {
-  const { moduleNames } = await generateFromFolder(
-    "node_modules/@shopify/polaris-icons/images",
-    "lib",
-    {
-      clean: true,
-    }
-  );
+(async () => {
+  const lib = "@shopify/polaris-icons";
+  const { moduleNames } = await generateFromFolder(`node_modules/${lib}/images`);
 
-  await cleanDir("docs");
-
-  const docs = [
-    "# docs",
-    `> ${moduleNames.length} icons from @shopify/polaris-icons@${pkg.devDependencies["@shopify/polaris-icons"]}.`,
-    "## Usage",
-    "```html",
-    `<script>
-       import Icon from "svelte-polaris-icons/lib/{ModuleName}";
-     </script>
-
-     <Icon />`,
-    "```",
-    "## List of icons by `ModuleName`",
-    moduleNames.map((moduleName) => `- ${moduleName}`).join("\n"),
-  ];
-
-  fs.writeFileSync("docs/README.md", docs.join("\n"));
-}
-
-build();
+  await generateIndex({
+    moduleNames,
+    pkgName: name,
+    pkgVersion: devDependencies[lib],
+    outputFile: "ICON_INDEX.md",
+  });
+})();
