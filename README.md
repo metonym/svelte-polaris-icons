@@ -1,13 +1,18 @@
 # svelte-polaris-icons
 
 [![NPM][npm]][npm-url]
-[![Build][build]][build-badge]
 
 > Shopify Polaris SVG icons as Svelte components.
 
 This library builds icons from [Shopify Polaris](https://polaris-icons.shopify.com/) as Svelte components with zero dependencies.
 
 Try it in the [Svelte REPL](https://svelte.dev/repl/52cb5e5d624b4f2cbb60a110b76161f0?version=3.30.0).
+
+<!-- REPO_URL -->
+
+---
+
+<!-- TOC -->
 
 ## Install
 
@@ -61,7 +66,7 @@ The direct import method is recommended because it can lead to faster compile ti
 - on:mouseout
 - on:keydown
 
-## Rendering using `svelte:component`
+## Using svelte:component
 
 ```svelte
 <script>
@@ -76,13 +81,13 @@ The direct import method is recommended because it can lead to faster compile ti
 {/each}
 ```
 
-## [Changelog](CHANGELOG.md)
+## Changelog
+
+[Changelog](CHANGELOG.md)
 
 ## License
 
 [MIT](LICENSE)
 
-[npm]: https://img.shields.io/npm/v/svelte-polaris-icons.svg?color=0366d6&style=for-the-badge
+[npm]: https://img.shields.io/npm/v/svelte-polaris-icons.svg?color=%23ff3e00&style=for-the-badge
 [npm-url]: https://npmjs.com/package/svelte-polaris-icons
-[build]: https://img.shields.io/travis/com/metonym/svelte-polaris-icons?style=for-the-badge
-[build-badge]: https://travis-ci.com/metonym/svelte-polaris-icons
