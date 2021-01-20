@@ -24,35 +24,31 @@ npm i -D svelte-polaris-icons
 
 ## Usage
 
+Refer to [ICON_INDEX.md](./ICON_INDEX.md) for a list of available icons.
+
 ### Base import
 
 ```svelte
 <script>
-  import {
-    AddMajor,
-    ArrowUpMinor,
-    CategoriesMajor,
-    MobilePlusMajor,
-  } from "svelte-polaris-icons";
+  import { AddMajor, ArrowUpMinor, MobilePlusMajor } from "svelte-polaris-icons";
 </script>
 
 <AddMajor width={20} />
 <ArrowUpMinor width={20} />
-<CategoriesMajor width={20} />
 <MobilePlusMajor width={20} />
 ```
-
-Refer to [ICON_INDEX.md](./ICON_INDEX.md) for list of icons.
 
 ### Direct import
 
 The direct import method is recommended because it can lead to faster compile times.
 
+<!-- prettier-ignore-start -->
 ```html
 <script>
-  import TypeMajor from "svelte-polaris-icons/lib/TypeMajor";
+  import ExportMinor from "svelte-polaris-icons/lib/ExportMinor";
 </script>
 ```
+<!-- prettier-ignore-end -->
 
 ## API
 
