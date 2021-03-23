@@ -1,6 +1,6 @@
 # Icon Index
 
-> 378 icons from svelte-polaris-icons@4.1.0.
+> 386 icons from svelte-polaris-icons@4.1.0.
 
 ## Usage
 
@@ -48,6 +48,9 @@
 - BlockquoteMajor
 - BlogMajor
 - BugMajor
+- ButtonCornerPillMajor
+- ButtonCornerRoundedMajor
+- ButtonCornerSquareMajor
 - BuyButtonButtonLayoutMajor
 - BuyButtonHorizontalLayoutMajor
 - BuyButtonMajor
@@ -112,7 +115,10 @@
 - CollectionsMajor
 - ColorNoneMinor
 - ColorsMajor
+- Column1Major
 - ColumnWithTextMajor
+- Columns2Major
+- Columns3Major
 - ComposeMajor
 - ConfettiMajor
 - ConnectMinor
@@ -342,11 +348,13 @@
 - StarFilledMinor
 - StarOutlineMinor
 - StoreMajor
+- StoreMinor
 - StoreStatusMajor
 - TabletMajor
 - TapChipMajor
 - TaxMajor
 - TeamMajor
+- TemplateMajor
 - TextAlignmentCenterMajor
 - TextAlignmentLeftMajor
 - TextAlignmentRightMajor

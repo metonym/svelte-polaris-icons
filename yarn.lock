@@ -49,10 +49,10 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@shopify/polaris-icons@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/@shopify/polaris-icons/-/polaris-icons-4.1.0.tgz#296ff47d22b52cb1592e2fa81a609f8f3c912eb0"
-  integrity sha512-U5ODhOJtfYHJskYUknceIjpF+EhHdMQJ54HSWsjuHAapCWbmA8ROVonAnDEM+cWeEVinpPZzQd2nE/DVJUmKkw==
+"@shopify/polaris-icons@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@shopify/polaris-icons/-/polaris-icons-4.5.0.tgz#1ba9bf3a56d60c880113135a95380213ebbd882b"
+  integrity sha512-ATmB9cFohBoA+p2wumzg6Y9qk6hHibxIqjsJFSi0jWSIn3C8nmqkiCnMg5mJIyb8jWoSgpaqqeTNV57xD17yIQ==
 
 "@types/estree@0.0.39":
   version "0.0.39"

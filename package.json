@@ -15,7 +15,7 @@
     "prepack": "s2s --input=node_modules/@shopify/polaris-icons/dist/svg && npx sveld --glob"
   },
   "devDependencies": {
-    "@shopify/polaris-icons": "4.1.0",
+    "@shopify/polaris-icons": "4.5.0",
     "svelte-readme": "^3.1.0",
     "svg-to-svelte": "^2.2.0"
   },
