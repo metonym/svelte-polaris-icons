@@ -1,6 +1,6 @@
 # Icon Index
 
-> 386 icons from svelte-polaris-icons@4.1.0.
+> 386 icons from svelte-polaris-icons@4.5.0.
 
 ## Usage
 

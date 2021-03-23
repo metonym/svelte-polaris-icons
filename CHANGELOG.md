@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.5.0](https://github.com/metonym/svelte-polaris-icons/releases/tag/v4.5.0) - 2021-03-23
+
+**Features**
+
+- upgrade `@shopify/polaris-icons` to v4.5.0 (net +8 icons)
+- add TypeScript definitions
+
 ## [4.1.0](https://github.com/metonym/svelte-polaris-icons/releases/tag/v4.1.0) - 2020-11-29
 
 **Breaking Changes**
