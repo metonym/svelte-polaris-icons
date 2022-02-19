@@ -1,18 +1,8 @@
 # Icon Index
 
-> 386 icons from svelte-polaris-icons@4.5.0.
+> 406 total icons
 
-## Usage
-
-```html
-<script>
-  import Icon from "svelte-polaris-icons/lib/{ModuleName}";
-</script>
-
-<Icon />
-```
-
-## Icons by `ModuleName`
+## Icons
 
 - AbandonedCartMajor
 - AccessibilityMajor
@@ -22,11 +12,14 @@
 - AddMajor
 - AddNoteMajor
 - AddProductMajor
+- AdjustMinor
 - AffiliateMajor
 - AlertMinor
 - AnalyticsMajor
+- AnalyticsMinor
 - AppExtensionMinor
 - AppsMajor
+- AppsMinor
 - ArchiveMajor
 - ArchiveMinor
 - ArrowDownMinor
@@ -45,12 +38,14 @@
 - BillingStatementPoundMajor
 - BillingStatementRupeeMajor
 - BillingStatementYenMajor
+- BlockMinor
 - BlockquoteMajor
 - BlogMajor
 - BugMajor
 - ButtonCornerPillMajor
 - ButtonCornerRoundedMajor
 - ButtonCornerSquareMajor
+- ButtonMinor
 - BuyButtonButtonLayoutMajor
 - BuyButtonHorizontalLayoutMajor
 - BuyButtonMajor
@@ -106,6 +101,7 @@
 - CirclePlusOutlineMinor
 - CircleRightMajor
 - CircleTickMajor
+- CircleTickMinor
 - CircleTickOutlineMinor
 - CircleUpMajor
 - ClipboardMinor
@@ -119,6 +115,7 @@
 - ColumnWithTextMajor
 - Columns2Major
 - Columns3Major
+- Columns3Minor
 - ComposeMajor
 - ConfettiMajor
 - ConnectMinor
@@ -141,6 +138,7 @@
 - DiscountAutomaticMajor
 - DiscountCodeMajor
 - DiscountsMajor
+- DiscountsMinor
 - DisputeMinor
 - DnsSettingsMajor
 - DomainNewMajor
@@ -159,6 +157,7 @@
 - EnvelopeMajor
 - ExchangeMajor
 - ExistingInventoryMajor
+- ExitMajor
 - ExportMinor
 - ExternalMinor
 - ExternalSmallMinor
@@ -167,6 +166,8 @@
 - FeaturedCollectionMajor
 - FeaturedContentMajor
 - FilterMajor
+- FinancesMajor
+- FinancesMinor
 - FirstOrderMajor
 - FirstVisitMajor
 - FlagMajor
@@ -199,6 +200,7 @@
 - HideMinor
 - HintMajor
 - HomeMajor
+- HomeMinor
 - HorizontalDotsMinor
 - IconsMajor
 - IllustrationMajor
@@ -235,6 +237,7 @@
 - MarkFulfilledMinor
 - MarkPaidMinor
 - MarketingMajor
+- MarketingMinor
 - MaximizeMajor
 - MaximizeMinor
 - MentionMajor
@@ -258,8 +261,10 @@
 - NoteMinor
 - NotificationMajor
 - OnlineStoreMajor
+- OnlineStoreMinor
 - OrderStatusMinor
 - OrdersMajor
+- OrdersMinor
 - OutgoingMajor
 - PackageMajor
 - PageDownMajor
@@ -290,9 +295,12 @@
 - PrintMinor
 - ProductReturnsMinor
 - ProductsMajor
+- ProductsMinor
 - ProfileMajor
 - ProfileMinor
 - PromoteMinor
+- QuestionMarkInverseMajor
+- QuestionMarkInverseMinor
 - QuestionMarkMajor
 - QuestionMarkMinor
 - QuickSaleMajor
@@ -371,6 +379,7 @@
 - TickSmallMinor
 - TimelineAttachmentMajor
 - TipsMajor
+- TitleMinor
 - ToolsMajor
 - TransactionFeeDollarMajor
 - TransactionFeeEuroMajor
@@ -397,6 +406,7 @@
 - ViewportWideMajor
 - VocabularyMajor
 - WandMajor
+- WandMinor
 - WearableMajor
 - WholesaleMajor
 - WifiMajor

@@ -6,18 +6,22 @@
   "author": "Eric Liu (https://github.com/metonym)",
   "svelte": "./lib/index.js",
   "main": "./lib/index.js",
-  "types": "./types/index.d.ts",
+  "types": "./lib/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "dev": "rollup -cw",
-    "predeploy": "node build && rollup -c",
-    "deploy": "npx gh-pages -d dist",
-    "prepack": "s2s --input=node_modules/@shopify/polaris-icons/dist/svg && npx sveld --glob"
+    "predeploy": "rollup -c",
+    "deploy": "gh-pages -d dist",
+    "prepack": "svelvg glob=@shopify/polaris-icons/dist/svg iconIndex",
+    "test": "svelte-check --workspace test"
   },
   "devDependencies": {
-    "@shopify/polaris-icons": "4.5.0",
-    "svelte-readme": "^3.1.0",
-    "svg-to-svelte": "^2.2.0"
+    "@shopify/polaris-icons": "4.17.0",
+    "gh-pages": "^3.2.3",
+    "svelte": "^3.46.4",
+    "svelte-check": "^2.4.5",
+    "svelte-readme": "^3.6.2",
+    "svelvg": "^0.9.0"
   },
   "repository": {
     "type": "git",
@@ -35,7 +39,6 @@
     "svg"
   ],
   "files": [
-    "lib",
-    "types"
+    "lib"
   ]
 }

@@ -14,12 +14,17 @@ Try it in the [Svelte REPL](https://svelte.dev/repl/52cb5e5d624b4f2cbb60a110b761
 
 <!-- TOC -->
 
-## Install
+## Installation
 
 ```bash
+# Yarn
 yarn add -D svelte-polaris-icons
-# OR
+
+# NPM
 npm i -D svelte-polaris-icons
+
+# pnpm
+pnpm i -D svelte-polaris-icons
 ```
 
 ## Usage
@@ -42,7 +47,6 @@ Refer to [ICON_INDEX.md](./ICON_INDEX.md) for a list of available icons.
 <ArrowUpMinor width={20} />
 <MobilePlusMajor width={20} />
 <StoreMinor width={20} />
-
 ```
 
 ### Direct import
@@ -51,23 +55,11 @@ The direct import method is recommended because it can lead to faster compile ti
 
 ```html
 <script>
-  import ExportMinor from "svelte-polaris-icons/lib/ExportMinor";
+  import ExportMinor from "svelte-polaris-icons/lib/ExportMinor.svelte";
 </script>
 ```
 
-## API
-
-`$$restProps` are forwarded to the `svg` element.
-
-### Forwarded events
-
-- on:click
-- on:mouseover
-- on:mouseenter
-- on:mouseout
-- on:keydown
-
-## Using svelte:component
+## Using `svelte:component`
 
 ```svelte
 <script>
@@ -80,7 +72,6 @@ The direct import method is recommended because it can lead to faster compile ti
     {icon}
   </div>
 {/each}
-
 ```
 
 ## TypeScript
