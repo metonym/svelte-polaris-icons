@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.7.0](https://github.com/metonym/svelte-polaris-icons/releases/tag/v4.7.0) - 2022-02-19
+## [5.0.0](https://github.com/metonym/svelte-polaris-icons/releases/tag/v5.0.0) - 2022-02-19
 
 - upgrade `@shopify/polaris-icons` to v4.7.0 (net +20 icons)
 
