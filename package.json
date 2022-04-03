@@ -1,6 +1,6 @@
 {
   "name": "svelte-polaris-icons",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "license": "MIT",
   "description": "Shopify Polaris SVG icons as Svelte components",
   "author": "Eric Liu (https://github.com/metonym)",
