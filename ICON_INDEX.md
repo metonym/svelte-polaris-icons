@@ -1,6 +1,6 @@
 # Icon Index
 
-> 406 total icons
+> 408 total icons
 
 ## Icons
 
@@ -142,6 +142,7 @@
 - DisputeMinor
 - DnsSettingsMajor
 - DomainNewMajor
+- DomainRedirectMinor
 - DomainsMajor
 - DraftOrdersMajor
 - DragDropMajor
@@ -238,6 +239,7 @@
 - MarkPaidMinor
 - MarketingMajor
 - MarketingMinor
+- MarketsMajor
 - MaximizeMajor
 - MaximizeMinor
 - MentionMajor
