@@ -1,6 +1,6 @@
 # Icon Index
 
-> 408 total icons
+> 414 total icons
 
 ## Icons
 
@@ -33,6 +33,7 @@
 - BankMajor
 - BarcodeMajor
 - BehaviorMajor
+- BehaviorMinor
 - BillingStatementDollarMajor
 - BillingStatementEuroMajor
 - BillingStatementPoundMajor
@@ -120,6 +121,7 @@
 - ConfettiMajor
 - ConnectMinor
 - ConversationMinor
+- CreditCardCancelMajor
 - CreditCardMajor
 - CreditCardPercentMajor
 - CreditCardSecureMajor
@@ -195,6 +197,7 @@
 - GlobeMinor
 - GrammarMajor
 - HashtagMajor
+- HashtagMinor
 - HeaderMajor
 - HeartMajor
 - HideKeyboardMajor
@@ -243,6 +246,7 @@
 - MaximizeMajor
 - MaximizeMinor
 - MentionMajor
+- MergeMinor
 - MicrophoneMajor
 - MinimizeMajor
 - MinimizeMinor
@@ -382,6 +386,7 @@
 - TimelineAttachmentMajor
 - TipsMajor
 - TitleMinor
+- ToggleMinor
 - ToolsMajor
 - TransactionFeeDollarMajor
 - TransactionFeeEuroMajor
@@ -396,6 +401,7 @@
 - TransportMajor
 - TroubleshootMajor
 - TypeMajor
+- TypeMinor
 - UndoMajor
 - UnfulfilledMajor
 - UnknownDeviceMajor
