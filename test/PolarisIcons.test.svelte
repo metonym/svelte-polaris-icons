@@ -4,6 +4,7 @@
     MobilePlusMajor,
     BehaviorMinor,
     StoreMinor,
+    IdentityCardMajor,
   } from "../lib";
   import AddMajor from "../lib/AddMajor.svelte";
 </script>
@@ -13,3 +14,4 @@
 <BehaviorMinor />
 <MobilePlusMajor width={20} />
 <StoreMinor width={20} />
+<IdentityCardMajor />
