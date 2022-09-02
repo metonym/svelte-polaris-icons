@@ -1,6 +1,6 @@
 # Icon Index
 
-> 414 total icons
+> 426 total icons
 
 ## Icons
 
@@ -190,6 +190,8 @@
 - FraudProtectPendingMinor
 - FraudProtectUnprotectedMajor
 - FraudProtectUnprotectedMinor
+- FulfillmentFulfilledMajor
+- FulfillmentOnHoldMajor
 - GamesConsoleMajor
 - GiftCardMajor
 - GiftCardMinor
@@ -207,6 +209,7 @@
 - HomeMinor
 - HorizontalDotsMinor
 - IconsMajor
+- IdentityCardMajor
 - IllustrationMajor
 - ImageAltMajor
 - ImageAltMinor
@@ -247,6 +250,8 @@
 - MaximizeMinor
 - MentionMajor
 - MergeMinor
+- MetafieldsMajor
+- MetafieldsMinor
 - MicrophoneMajor
 - MinimizeMajor
 - MinimizeMinor
@@ -290,6 +295,8 @@
 - PhoneOutMajor
 - PinMajor
 - PinMinor
+- PlanMajor
+- PlanMinor
 - PlayCircleMajor
 - PlayMajor
 - PlayMinor
@@ -299,6 +306,7 @@
 - PriceLookupMinor
 - PrintMajor
 - PrintMinor
+- ProductCostMajor
 - ProductReturnsMinor
 - ProductsMajor
 - ProductsMinor
@@ -361,6 +369,7 @@
 - SoundMajor
 - StarFilledMinor
 - StarOutlineMinor
+- StatusActiveMajor
 - StoreMajor
 - StoreMinor
 - StoreStatusMajor
@@ -369,6 +378,7 @@
 - TaxMajor
 - TeamMajor
 - TemplateMajor
+- TemplateMinor
 - TextAlignmentCenterMajor
 - TextAlignmentLeftMajor
 - TextAlignmentRightMajor
@@ -411,6 +421,8 @@
 - ViewMajor
 - ViewMinor
 - ViewportNarrowMajor
+- ViewportShortMajor
+- ViewportTallMajor
 - ViewportWideMajor
 - VocabularyMajor
 - WandMajor
